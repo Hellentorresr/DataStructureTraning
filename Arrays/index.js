@@ -11,3 +11,10 @@ const MaximumAndMinumumValues = (array) => {
 };
 
 console.log(MaximumAndMinumumValues([1, 3, 8, 2, 6]));
+
+
+
+//Reverse an array Write a function that takes an array as input and returns the array reversed.;
+const ReverseArray = (array) => array.reverse();
+
+console.log(ReverseArray([5, 4, 3, 8]));
