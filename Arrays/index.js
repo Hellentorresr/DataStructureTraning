@@ -18,3 +18,9 @@ console.log(MaximumAndMinumumValues([1, 3, 8, 2, 6]));
 const ReverseArray = (array) => array.reverse();
 
 console.log(ReverseArray([5, 4, 3, 8]));
+
+
+//Remove duplicates from an array Write a function that removes duplicates from an array.
+const RemoveDuplicates = (array) => new Set(array);
+
+console.log(RemoveDuplicates([2, 6, 8, 5, 2, 6, 9, 5]));
